@@ -1,0 +1,13 @@
+This is a maven spring-boot project built using version 3.3.3
+
+To build the project and run all tests: mvn clean install
+To start the spring-boot server: mvn spring-boot:run
+
+to connect to in memory h2 db when running server:
+
+http://localhost:8080/h2-console
+then enter:
+
+JDBC URL: jdbc:h2:mem:testdb
+User Name: sa
+Pasword: <leave this empty>
